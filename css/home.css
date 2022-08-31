@@ -88,7 +88,7 @@
   align-items: center;
 }
 
-.home__box-6 > div {
+.home__box-6 > a {
   width: calc(6vw + 6rem);
   height: calc(6vw + 6rem);
   max-width: 300px;
@@ -100,27 +100,27 @@
 }
 
 .fbox1 {
-  background: url(../images/friends.jpg);
+  background: url(../people/img/Business-Beecher\ Ashley\ Brown/1.jpg);
 }
 
 .fbox2 {
-  background: url(../images/friends.jpg);
+  background: url(../people/img/Business-Kenneth\ Jarrett/1.jpg);
 }
 
 .fbox3 {
-  background: url(../images/friends.jpg);
+  background: url(../people/img/Education-Joshua\ Bobley/1.png);
 }
 
 .fbox4 {
-  background: url(../images/friends.jpg);
+  background: url(../people/img/Finance-Curtis\ Ferguson/1.jpeg);
 }
 
 .fbox5 {
-  background: url(../images/friends.jpg);
+  background: url(../people/img/Healthcare-Koh\ Hau-Tek/1.jpg);
 }
 
 .fbox6 {
-  background: url(../images/friends.jpg);
+  background: url(../people/img/Legal-Carlo\ D’Andrea/1.jpg);
 }
 
 .home__contact {
