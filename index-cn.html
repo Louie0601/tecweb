@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/navbar-cn.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>TEC Home</title>
+  </head>
+  <body>
+    <header>
+      <a href="index-cn.html">
+        <img class="logo" src="images/Logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a class="active" href="index-cn.html">首页</a></li>
+          <li><a href="about-cn.html">关于我们</a></li>
+          <li class="dropdown__link">
+            <a>主要服务</a>
+            <ul class="nav__dropdown">
+              <li><a href="one-stop-cn.html">一站式平台</a></li>
+              <li><a href="ambassador-center-cn.html">大使中心</a></li>
+              <li><a href="mini-program-cn.html">小程序</a></li>
+            </ul>
+          </li>
+          <li><a href="friends-cn.html">TEC之友</a></li>
+          <li><a href="contact-cn.html">联系我们</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a onclick="lan()" href="index.html">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="index-cn.html">首页</a>
+        <a href="about-cn.html">关于我们</a>
+        <a class="mobile__dropdown-link" onclick="openDrop()"
+          >主要服务 <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="one-stop-cn.html">一站式平台</a></li>
+          <li><a href="ambassador-center-cn.html">大使中心</a></li>
+          <li><a href="mini-program-cn.html">小程序</a></li>
+        </ul>
+        <a href="friends-cn.html">TEC之友</a>
+        <a href="contact-cn.html">联系我们</a>
+      </div>
+    </div>
+    <!-- Hero -->
+
+    <div id="slider">
+      <figure>
+        <img src="img/Home/轮播图/轮播图1.jpg" />
+        <img src="img/Home/轮播图/轮播图2.jpg" />
+        <img src="img/Home/轮播图/轮播图3.jpg" />
+        <img src="img/Home/轮播图/轮播图4.jpg" />
+      </figure>
+    </div>
+    <div class="hero__text-cn">
+      <h1>这里就是家</h1>
+    </div>
+
+    <div class="container">
+      <!-- About -->
+      <div class="home__wrapper">
+        <div class="home__title">
+          <h1>关于我们</h1>
+        </div>
+        <div class="home__content">
+          <p>
+            <strong>外籍人士中心 (TEC)</strong>
+            是上海爱满家家庭服务中心的重点项目，是在民政局合法注册的非盈利机构，在长宁区人民政府虹桥街道的支持下，她是首家在沪“政社联动”的一站式服务平台，可直接提供线下和在线的服务窗口。中心位于古北市民中心，致力于服务外籍人士、港澳台同胞、华侨海归社群，满足他们在上海的生活、工作和家庭等领域的实际需求，使他们感受到
+            <strong>“上海就是家”</strong
+            >。她也作为向上海市政府对国际社区制定政策和项目的重要反馈渠道。
+          </p>
+        </div>
+        <div class="home__cta">
+          <a class="cta" href="about-cn.html"> 了解更多 </a>
+        </div>
+      </div>
+
+      <!-- Our Services -->
+      <div class="home__wrapper">
+        <div class="home__title">
+          <h1>主要服务</h1>
+        </div>
+        <div class="home__box-3">
+          <a href="one-stop-cn.html"
+            ><div class="box1"><h1>一站式平台</h1></div></a
+          >
+          <a href="ambassador-center-cn.html"
+            ><div class="box2"><h1>大使中心</h1></div></a
+          >
+          <a href="mini-program-cn.html"
+            ><div class="box3"><h1>TEC 助福 小程序</h1></div></a
+          >
+        </div>
+      </div>
+
+      <!-- Friends of TEC -->
+      <div class="home__wrapper">
+        <div class="home__title">
+          <h1>TEC之友</h1>
+        </div>
+        <div class="home__content">
+          <p>
+            TEC从成立至今，结识了很多来自不同国家和地区，各个行业的朋友们。他们热心公益事业，为社区服务，曾参与合作TEC的各类活动，
+            共同携手在上海建立一个更美好的家。
+          </p>
+        </div>
+        <div class="home__box-6">
+          <div class="fbox1"></div>
+          <div class="fbox2"></div>
+          <div class="fbox3"></div>
+          <div class="fbox4"></div>
+          <div class="fbox5"></div>
+          <div class="fbox6"></div>
+        </div>
+        <div class="home__cta">
+          <a class="cta" href="friends-cn.html"> 了解更多 </a>
+        </div>
+      </div>
+
+      <!-- Contact -->
+
+      <div class="home__wrapper">
+        <div class="home__title">
+          <h1>联系我们</h1>
+        </div>
+        <div class="home__contact">
+          <div class="home__contact-img">
+            <img src="img/Home/Contact-Us/WeChat.png" />
+            <img src="img/Home/Contact-Us/WeCom.png" />
+          </div>
+          <div class="home__contact-details">
+            <div class="heading">
+              <p>TEC古北办公室</p>
+            </div>
+            <div class="address">
+              <i class="far fa-map-marker-alt"></i>
+              <p>上海市长宁区富贵东道99号，古北市民中心1楼</p>
+            </div>
+            <div class="phone">
+              <i class="far fa-phone"></i>
+              <p>021-22850791</p>
+            </div>
+            <br />
+            <div class="heading">
+              <p>TEC喜事办公室</p>
+            </div>
+            <div class="address">
+              <i class="far fa-map-marker-alt"></i>
+              <p>上海市长宁区虹桥路1437号，喜事溢咖啡馆</p>
+            </div>
+            <div class="phone">
+              <i class="far fa-phone"></i>
+              <p>021-62340332</p>
+            </div>
+            <br />
+            <div class="heading">
+              <p>邮箱:</p>
+            </div>
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <p>admin@tec.place</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+    </div>
+    <div class="footer">
+      <img src="images/footer.jpg" />
+    </div>
+    <script src="mobile.js"></script>
+  </body>
+</html>

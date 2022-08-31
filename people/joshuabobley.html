@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/hero.css" />
+    <link rel="stylesheet" href="../css/person.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>Joshua Bobley</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html"
+        ><img class="logo" src="../images/Logo.png" alt="logo"
+      /></a>
+
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li class="dropdown__link">
+            <a>Our Services</a>
+            <ul class="nav__dropdown">
+              <li><a href="../one-stop.html">One-Stop Platform</a></li>
+              <li><a href="../ambassador-center.html">Ambassador Center</a></li>
+              <li><a href="../mini-program.html">TEC助福 Mini Program</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="../friends.html">Friends of TEC</a></li>
+          <li><a href="../contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a href="joshuabobley-cn.html" onclick="lan()">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About Us</a>
+        <a class="../mobile__dropdown-link" onclick="openDrop()"
+          >Our Services <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="../one-stop.html">One-Stop Platform</a></li>
+          <li><a href="../ambassador-center.html">Ambassador Center</a></li>
+          <li><a href="../mini-program.html">TEC助福 Mini Program</a></li>
+        </ul>
+        <a href="../friends.html">Friends of TEC</a>
+        <a href="../contact.html">Contact Us</a>
+      </div>
+    </div>
+
+    <div style="margin-top: 6rem"></div>
+
+    <a class="back" href="../friends.html">
+      <i class="fas fa-angle-left"></i>
+      <h3>Back</h3>
+    </a>
+
+    <!-- Profile Pic -->
+    <div class="container">
+      <div class="person__img">
+        <div class="person__pp">
+          <img src="img/Education-Joshua Bobley/1.png" />
+        </div>
+      </div>
+
+      <div class="person__intro">
+        <h2>Joshua Bobley</h2>
+        <p>USA</p>
+        <br />
+        <p>Senior Consultant of Shanghai Art Museum; Teacher; Host</p>
+      </div>
+      <div class="person__text">
+        <p>
+          Joshua has been an English language instructor for about 20 years,
+          also an editor, writer, translator, and cultural consultant. He has
+          also hosted various international events as a bilingual host.  
+          <br /><br />
+          Joshua received his master’s degree from Yale University, a master’s
+          degree from Columbia University School of Journalism, as well as his
+          bachelor’s degree from Brandeis University.  
+
+          <br /><br />
+          <img src="img/Education-Joshua Bobley/2.jpg" class="long__pic" />
+          <br /><br />
+
+          “It has been an honor to work with TEC on a number of projects
+          throughout the years, helping to foster good will between China and
+          expats.
+          <br /><br />
+          I have had the good fortune to participate in a number of TEC events,
+          including hosting the 100th Anniversary Commemoration for the founding
+          of the Communist Party of China (hundreds of VIPS took part during an
+          evening cruise on the Huangpu River). I also participated in a book
+          review to encourage reading for which I created a video describing a
+          best-seller written by Israeli historian, Yuval Harari, entitled,
+          Sapiens: A Graphic History. The book, which received great acclaim
+          throughout the world, takes readers through the entire history of the
+          human species.
+          <br /><br />
+          Such events supported or organized by TEC provide an invaluable
+          service to Chinese citizens, returnees and expats alike. I look
+          forward to contributing further in the coming months as we move past
+          the pandemic.”
+
+          <br /><br />
+          <img src="img/Education-Joshua Bobley/3.png" class="long__pic" />
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="../images/footer.jpg" />
+    </div>
+    <script src="../mobile.js"></script>
+  </body>
+</html>

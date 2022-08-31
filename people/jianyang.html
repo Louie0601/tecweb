@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/hero.css" />
+    <link rel="stylesheet" href="../css/person.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>Jian Yang</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html"
+        ><img class="logo" src="../images/Logo.png" alt="logo"
+      /></a>
+
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li class="dropdown__link">
+            <a>Our Services</a>
+            <ul class="nav__dropdown">
+              <li><a href="../one-stop.html">One-Stop Platform</a></li>
+              <li><a href="../ambassador-center.html">Ambassador Center</a></li>
+              <li><a href="../mini-program.html">TEC助福 Mini Program</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="../friends.html">Friends of TEC</a></li>
+          <li><a href="../contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a href="jianyang-cn.html" onclick="lan()">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About Us</a>
+        <a class="../mobile__dropdown-link" onclick="openDrop()"
+          >Our Services <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="../one-stop.html">One-Stop Platform</a></li>
+          <li><a href="../ambassador-center.html">Ambassador Center</a></li>
+          <li><a href="../mini-program.html">TEC助福 Mini Program</a></li>
+        </ul>
+        <a href="../friends.html">Friends of TEC</a>
+        <a href="../contact.html">Contact Us</a>
+      </div>
+    </div>
+
+    <div style="margin-top: 6rem"></div>
+
+    <a class="back" href="../friends.html">
+      <i class="fas fa-angle-left"></i>
+      <h3>Back</h3>
+    </a>
+
+    <!-- Profile Pic -->
+    <div class="container">
+      <div class="person__img">
+        <div class="person__pp">
+          <img src="img/Yangjian/1.JPG" />
+        </div>
+      </div>
+
+      <div class="person__intro">
+        <h2>Jian Yang</h2>
+        <p>China</p>
+        <br />
+        <p>
+          Tenure Professor in Civil Engineering <br />
+          Deputy Dean of School of Naval Architecture, Ocean and Civil
+          Engineering (Undergraduates & International), Shanghai Jiao Tong
+          University
+        </p>
+      </div>
+      <div class="person__text">
+        <p>
+          Dr. Jian Yang has over 20 years of experience of teaching, research
+          and consultancy at various universities in the U.K. and China. His
+          research interests fall into the fields of green building materials
+          and construction, smart construction and digital innovations. He has
+          supervised more than 50 PhD/Master students from various countries in
+          the world. In his present role, he is leading a team of 30
+          researchers.
+
+          <br /><br />
+          <img src="img/Yangjian/2.JPG" class="long__pic" />
+          <br /><br />
+          He is a Fellow of Institute of Civil Engineers (FICE) and a chartered
+          member of the Institute of Structural Engineers (MIStructE). He serves
+          on several international and national professional committees, e.g.
+          IStructE, ICE and Chinese Ceramic Society. He sits on the editorial
+          boards for 4 international peer reviewed journals. He is the PI of
+          over 30 grants and has published nearly 200 peer reviewed journal
+          papers attracting more than 4000 citations.
+
+          <br /><br />
+          <img src="img/Yangjian/3.JPG" class="long__pic" />
+          <br /><br />
+          “While living in the UK for more than 15 years, both my family and
+          myself understand the difficulty as foreigners. We are so grateful for
+          the enormous assistance and supports from communities. After we came
+          back Shanghai, we participated in many activities organized by TEC
+          such as forums on cutting edge subjects organized by many volunteers.
+          TEC is such a warm community and I am more than willing to be its
+          volunteer with a view of offering help to other foreigners living and
+          working in Shanghai. Shanghai is an international and world-friendly
+          city, embracing cultural and national diversity. Everyone feel at home
+          living here.”
+
+          <br /><br />
+          <img src="img/Yangjian/4.JPG" class="long__pic" />
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="../images/footer.jpg" />
+    </div>
+    <script src="../mobile.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/navbar-cn.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/hero.css" />
+    <link rel="stylesheet" href="../css/person.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>钟汉杰</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index-cn.html">
+        <img class="logo" src="../images/Logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../index-cn.html">首页</a></li>
+          <li><a href="../about-cn.html">关于我们</a></li>
+          <li class="dropdown__link">
+            <a>主要服务</a>
+            <ul class="nav__dropdown">
+              <li><a href="../one-stop-cn.html">一站式平台</a></li>
+              <li><a href="../ambassador-center-cn.html">大使中心</a></li>
+              <li><a href="../mini-program-cn.html">小程序</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="../friends-cn.html">TEC之友</a></li>
+          <li><a href="../contact-cn.html">联系我们</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a onclick="lan()" href="henrycheng.html">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="../index-cn.html">首页</a>
+        <a href="../about-cn.html">关于我们</a>
+        <a class="mobile__dropdown-link" onclick="openDrop()"
+          >主要服务 <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="../one-stop-cn.html">一站式平台</a></li>
+          <li><a href="../ambassador-center-cn.html">大使中心</a></li>
+          <li><a href="../mini-program-cn.html">小程序</a></li>
+        </ul>
+        <a href="../friends-cn.html">TEC之友</a>
+        <a href="../contact-cn.html">联系我们</a>
+      </div>
+    </div>
+
+    <div style="margin-top: 6rem"></div>
+
+    <a class="back" href="../friends-cn.html">
+      <i class="fas fa-angle-left"></i>
+      <h3>返回</h3>
+    </a>
+
+    <!-- Profile Pic -->
+    <div class="container">
+      <div class="person__img">
+        <div class="person__pp">
+          <img src="img/Business-Henry Cheng/1.jpg" />
+        </div>
+      </div>
+
+      <div class="person__intro">
+        <h2>钟汉杰</h2>
+        <p>新加坡</p>
+        <br />
+        <p>得世中国执行总监</p>
+      </div>
+      <div class="person__text">
+        <p>
+          钟汉杰目前任一家意大利跨国公司的中华区代表。这家公司是一家先进的数字印刷和生产技术的制造商，总部位于意大利南蒂罗尔的布里克森。公司核心业务是数字喷墨打印以及相关的油墨，软件和服务。进入这家公司之前，钟汉杰在经营国际性建筑材料业务，在佛山运营近十年该业务后将此卖掉，来到上海担任总经理。
+
+          <br /><br />
+          <img src="img/Business-Henry Cheng/2.jpg" class="long__pic" />
+          <br /><br />
+          Henry积极地推动着中新两国青年的互动。为TEC青少年创业精品课程获得新加坡青年委员会的支持提供了关键性的帮助。
+          <br /><br />
+          <img src="img/Business-Henry Cheng/3.jpg" class="long__pic" />
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="../images/footer.jpg" />
+    </div>
+    <script src="../mobile.js"></script>
+  </body>
+</html>

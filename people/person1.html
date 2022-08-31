@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/hero.css" />
+    <link rel="stylesheet" href="../css/person.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>Person 1</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html"
+        ><img class="logo" src="../images/Logo.png" alt="logo"
+      /></a>
+
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li class="dropdown__link">
+            <a>Our Services</a>
+            <ul class="nav__dropdown">
+              <li><a href="../one-stop.html">One-Stop Platform</a></li>
+              <li><a href="../ambassador-center.html">Ambassador Center</a></li>
+              <li><a href="../mini-program.html">TEC助福 Mini Program</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="../friends.html">Friends of TEC</a></li>
+          <li><a href="../contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a onclick="lan()">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About Us</a>
+        <a class="../mobile__dropdown-link" onclick="openDrop()"
+          >Our Services <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="../one-stop.html">One-Stop Platform</a></li>
+          <li><a href="../ambassador-center.html">Ambassador Center</a></li>
+          <li><a href="../mini-program.html">TEC助福 Mini Program</a></li>
+        </ul>
+        <a href="../friends.html">Friends of TEC</a>
+        <a href="../contact.html">Contact Us</a>
+      </div>
+    </div>
+
+    <div style="margin-top: 6rem"></div>
+
+    <a class="back" href="../friends.html">
+      <i class="fas fa-angle-left"></i>
+      <h3>Back</h3>
+    </a>
+
+    <!-- Profile Pic -->
+    <div class="container">
+      <div class="person__img">
+        <div class="person__pp">
+          <img src="../images/friend1.jpg" />
+        </div>
+      </div>
+
+      <div class="person__intro">
+        <h2>
+          Kng Hwee Tin <br />
+          康慧珍
+        </h2>
+        <br />
+        <p>
+          CEO, Finance & Corporate Services, CapitaLand China <br />Chairperson,
+          Singapore Chamber of Commerce & Industry (SH)
+        </p>
+      </div>
+      <div class="person__text">
+        <p>
+          Before joining CapitaLand last year, she was the Executive Director
+          and Chief Executive Officer of OCBC Wing Hang Bank (China) Limited
+          since 2012. She has more than three decades of experience in the
+          financial services industry business, with solid ethics, strong
+          business leadership and good risk management capabilities. She is a
+          strategic thinker and forward-moving business leader, and is acutely
+          aware of the China culture and environment to run the business well.
+          She was awarded the “沪上金融创新人物” award in 2016.
+          <br /><br />
+          <img src="../images/friend1-big.jpg" class="long__pic" />
+          <br /><br />
+          She has actively participated in various activities arranged by
+          inter-governmental organisation between China and Singapore
+          government, e.g. Singapore-Shanghai Comprehensive Cooperation Council,
+          Singapore-Jiangsu Cooperation Council, etc.; and advocated on ways to
+          enhance bilateral cooperation on some of these occasions. In addition,
+          she has also supported many activities organised by the then-SSBA in
+          Shanghai.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="../images/footer.jpg" />
+    </div>
+    <script src="mobile.js"></script>
+  </body>
+</html>

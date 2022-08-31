@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/navbar-cn.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/friends.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="index-cn.html">
+        <img class="logo" src="images/Logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index-cn.html">首页</a></li>
+          <li><a href="about-cn.html">关于我们</a></li>
+          <li class="dropdown__link">
+            <a>主要服务</a>
+            <ul class="nav__dropdown">
+              <li><a href="one-stop-cn.html">一站式平台</a></li>
+              <li><a href="ambassador-center-cn.html">大使中心</a></li>
+              <li><a href="mini-program-cn.html">小程序</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="friends-cn.html">TEC之友</a></li>
+          <li><a href="contact-cn.html">联系我们</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a onclick="lan()" href="friends.html">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="index-cn.html">首页</a>
+        <a href="about-cn.html">关于我们</a>
+        <a class="mobile__dropdown-link" onclick="openDrop()"
+          >主要服务 <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="one-stop-cn.html">一站式平台</a></li>
+          <li><a href="ambassador-center-cn.html">大使中心</a></li>
+          <li><a href="mini-program-cn.html">小程序</a></li>
+        </ul>
+        <a href="friends-cn.html">TEC之友</a>
+        <a href="contact-cn.html">联系我们</a>
+      </div>
+    </div>
+
+    <!-- Hero -->
+
+    <div class="friends__hero">
+      <img src="img/Friends of TEC/横幅.jpg" />
+    </div>
+
+    <!-- Content -->
+
+    <div class="container">
+      <div class="friends__title">
+        <h1>TEC之友</h1>
+      </div>
+      <div class="friends__title-content">
+        <p>
+          TEC从成立至今，结识了很多来自不同国籍，各个行业的朋友们。他们热心公益事业，为社区服务，曾参与合作TEC的各类活动，
+          共同携手在上海建立一个更美好的家。
+        </p>
+      </div>
+
+      <div class="friends__industries">
+        <div class="industry1">
+          <h2>商务</h2>
+          <div class="people">
+            <a
+              href="people/beecherashleybrown-cn.html"
+              style="
+                background-image: url(people/img/Business-Beecher\ Ashley\ Brown/1.jpg);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/henrycheng-cn.html"
+              style="
+                background-image: url(people/img/Business-Henry\ Cheng/1.jpg);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/kennethjarrett-cn.html"
+              style="
+                background-image: url(people/img/Business-Kenneth\ Jarrett/1.jpg);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/markbraithwaite-cn.html"
+              style="
+                background-image: url(people/img/Business-Mark\ Braithwaite/1.jpg);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/tiffanycaoxu-cn.html"
+              style="
+                background-image: url(people/img/Business-Tiffany\ Caoxu/1.png);
+              "
+              class="person"
+            ></a>
+          </div>
+        </div>
+        <div class="industry2">
+          <h2>教育</h2>
+          <div class="people">
+            <a
+              href="people/andrewhill-cn.html"
+              style="
+                background-image: url(people/img/Education-Andrew-ELG/1.jpg);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/jiayidu-cn.html"
+              style="
+                background-image: url(people/img/Education-Jiayi\ Du/1.jpeg);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/joshuabobley-cn.html"
+              style="
+                background-image: url(people/img/Education-Joshua\ Bobley/1.png);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/mingkhor-cn.html"
+              style="
+                background-image: url(people/img/Education-Ming\ Khor/1.jpg);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/minkichang-cn.html"
+              style="
+                background-image: url(people/img/Education-Minki\ Chang/1.jpg);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/jianyang-cn.html"
+              style="background-image: url(people/img/Yangjian/1.JPG)"
+              class="person"
+            ></a>
+          </div>
+        </div>
+        <div class="industry3">
+          <h2>金融</h2>
+          <div class="people">
+            <a
+              href="people/curtisferguson-cn.html"
+              style="
+                background-image: url(people/img/Finance-Curtis\ Ferguson/1.jpeg);
+              "
+              class="person"
+            ></a>
+            <a
+              href="people/keithchau-cn.html"
+              style="
+                background-image: url(people/img/Finance-Keith\ Chau/1.jpeg);
+              "
+              class="person"
+            ></a>
+          </div>
+        </div>
+        <div class="industry4">
+          <h2>健康医疗</h2>
+          <div class="people">
+            <a
+              href="people/kohhautek-cn.html"
+              style="
+                background-image: url(people/img/Healthcare-Koh\ Hau-Tek/1.jpg);
+              "
+              class="person"
+            ></a>
+          </div>
+        </div>
+        <div class="industry4">
+          <h2>法律</h2>
+          <div class="people">
+            <a
+              href="people/carlodandrea-cn.html"
+              style="
+                background-image: url(people/img/Legal-Carlo\ D’Andrea/1.jpg);
+              "
+              class="person"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="images/footer.jpg" />
+    </div>
+    <script src="mobile.js"></script>
+  </body>
+</html>

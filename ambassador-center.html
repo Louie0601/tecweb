@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/service.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>Ambassader Center</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="images/Logo.png" alt="logo"
+      /></a>
+
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="dropdown__link">
+            <a class="active">Our Services</a>
+            <ul class="nav__dropdown">
+              <li><a href="one-stop.html">One-Stop Platform</a></li>
+              <li><a href="ambassador-center.html">Ambassador Center</a></li>
+              <li><a href="mini-program.html">TEC助福 Mini Program</a></li>
+            </ul>
+          </li>
+          <li><a href="friends.html">Friends of TEC</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a onclick="lan()" href="ambassador-center-cn.html">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a class="mobile__dropdown-link" onclick="openDrop()"
+          >Our Services <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="one-stop.html">One-Stop Platform</a></li>
+          <li><a href="ambassador-center.html">Ambassador Center</a></li>
+          <li><a href="mini-program.html">TEC助福 Mini Program</a></li>
+        </ul>
+        <a href="friends.html">Friends of TEC</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+
+    <!-- Hero -->
+
+    <div class="service__hero">
+      <img src="img/Aambassador-Center/1. 横幅.jpg" alt="Hero Image" />
+    </div>
+
+    <!-- Content -->
+
+    <div class="container">
+      <div class="service__title">
+        <h1>TEC AMBASSADOR CENTERS</h1>
+      </div>
+      <div class="service__title-content">
+        TEC Ambassador Centers are a group of industry leaders (corporates,
+        organizations, communities etc) and an extension of the core TEC team,
+        committed to help TEC fulfil its mission of building a strong and vital
+        community center that serves the expats in Shanghai. The Ambassador
+        program is a premier expat community networking program.
+      </div>
+      <div class="service__companies">
+        <div class="companies1">
+          <img
+            src="img/Aambassador-Center/TACP ALL LOGOs_0414_1.jpg"
+            alt="tacp1"
+          />
+          <img
+            src="img/Aambassador-Center/TACP ALL LOGOs_0414_2.jpg"
+            alt="tacp2"
+          />
+          <img
+            src="img/Aambassador-Center/TACP ALL LOGOs_0414_3.jpg"
+            alt="tacp3"
+          />
+        </div>
+        <div class="companies2">
+          <img
+            src="img/Aambassador-Center/TACP ALL LOGOs_0414_4.jpg"
+            alt="tacp4"
+          />
+          <img
+            src="img/Aambassador-Center/TACP ALL LOGOs_0414_5.jpg"
+            alt="tacp5"
+          /><img
+            src="img/Aambassador-Center/TACP ALL LOGOs_0414_6.jpg"
+            alt="tacp6"
+          />
+        </div>
+      </div>
+      <div class="service__benefits-tier">
+        <div class="service__title">
+          <h1>BENEFITS</h1>
+        </div>
+        <div class="service__tiers">
+          <div class="tier1">
+            <h1>Standard Account</h1>
+            <img src="img/Aambassador-Center/2. StandardAccount.jpg" />
+          </div>
+          <div class="tier2">
+            <h1>Premium Account</h1>
+            <img src="img/Aambassador-Center/PremAccount.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="images/footer.jpg" />
+    </div>
+    <script src="mobile.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+.back {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  position: absolute;
+  top: 7rem;
+  left: 10%;
+  color: #000;
+}
+
+.back > i {
+  font-size: 2rem;
+}
+
+.person__pp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 100%;
+  margin-top: 4rem;
+}
+
+.person__pp img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border: none;
+  border-radius: 100%;
+}
+
+.person__intro > p {
+  font-size: 1.2rem;
+}
+
+.person__img {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.long__pic {
+  width: 100%;
+}
+
+.person__text {
+  margin-top: 4rem;
+}
+
+.person__intro {
+  text-align: center;
+}
+
+.person__text > p {
+  font-size: 1.1rem;
+}

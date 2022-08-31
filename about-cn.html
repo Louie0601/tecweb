@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/navbar-cn.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>TEC Home</title>
+  </head>
+  <body>
+    <header>
+      <a href="index-cn.html">
+        <img class="logo" src="images/Logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index-cn.html">首页</a></li>
+          <li><a class="active" href="about-cn.html">关于我们</a></li>
+          <li class="dropdown__link">
+            <a>主要服务</a>
+            <ul class="nav__dropdown">
+              <li><a href="one-stop-cn.html">一站式平台</a></li>
+              <li><a href="ambassador-center-cn.html">大使中心</a></li>
+              <li><a href="mini-program-cn.html">小程序</a></li>
+            </ul>
+          </li>
+          <li><a href="friends-cn.html">TEC之友</a></li>
+          <li><a href="contact-cn.html">联系我们</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a onclick="lan()" href="about.html">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="index-cn.html">首页</a>
+        <a href="about-cn.html">关于我们</a>
+        <a class="mobile__dropdown-link" onclick="openDrop()"
+          >主要服务 <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="one-stop-cn.html">一站式平台</a></li>
+          <li><a href="ambassador-center-cn.html">大使中心</a></li>
+          <li><a href="mini-program-cn.html">小程序</a></li>
+        </ul>
+        <a href="friends-cn.html">TEC之友</a>
+        <a href="contact-cn.html">联系我们</a>
+      </div>
+    </div>
+    <!-- Hero -->
+
+    <div class="about__hero">
+      <img src="img/About-Us/横幅.jpeg" alt="Hero Image" />
+    </div>
+
+    <div class="container">
+      <!-- Intro -->
+      <div class="about__intro">
+        <div class="about__title">
+          <h1>关于我们</h1>
+        </div>
+        <div class="about__content">
+          <p>
+            <strong>外籍人士中心 (TEC)</strong>
+            是上海爱满家家庭服务中心的重点项目，是在民政局合法注册的非盈利机构，在长宁区人民政府虹桥街道的支持下，她是首家在沪“政社联动”的一站式服务平台，可直接提供线下和在线的服务窗口。中心位于古北市民中心，致力于服务外籍人士，港澳台同胞，华侨海归社群，满足他们在上海的生活，工作和家庭等领域的实际需求，使他们感受到
+            <strong>“上海就是家”</strong
+            >。她也作为向上海市政府对国际社区制定政策和项目的重要反馈渠道。
+          </p>
+        </div>
+      </div>
+      <div class="about__video">
+        <script
+          src="https://fast.wistia.com/embed/medias/v64v7dax46.jsonp"
+          async
+        ></script>
+        <script
+          src="https://fast.wistia.com/assets/external/E-v1.js"
+          async
+        ></script>
+        <div
+          class="wistia_responsive_padding"
+          style="padding: 56.25% 0 0 0; position: relative"
+        >
+          <div
+            class="wistia_responsive_wrapper"
+            style="
+              height: 100%;
+              left: 0;
+              position: absolute;
+              top: 0;
+              width: 100%;
+            "
+          >
+            <div
+              class="wistia_embed wistia_async_v64v7dax46 videoFoam=true"
+              style="height: 100%; position: relative; width: 100%"
+            >
+              <div
+                class="wistia_swatch"
+                style="
+                  height: 100%;
+                  left: 0;
+                  opacity: 0;
+                  overflow: hidden;
+                  position: absolute;
+                  top: 0;
+                  transition: opacity 200ms;
+                  width: 100%;
+                "
+              >
+                <img
+                  src="https://fast.wistia.com/embed/medias/v64v7dax46/swatch"
+                  style="
+                    filter: blur(5px);
+                    height: 100%;
+                    object-fit: contain;
+                    width: 100%;
+                  "
+                  alt=""
+                  aria-hidden="true"
+                  onload="this.parentNode.style.opacity=1;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="about__mission">
+        <div class="about__title">
+          <h1>我们的使命</h1>
+        </div>
+        <div class="about__content">
+          <p>
+            帮助外国人作为外籍居民理解，适应，习惯在上海的发展趋势是TEC一直所秉承的举办活动和服务的目的。
+          </p>
+          <br />
+          <p>
+            TEC推出了“探索教育机会”（EEO）系列，邀请国际学校校长和学校负责人参加圆桌论坛，并直接向父母分享他们学校的相关信息；
+            开展了多项与教育有关的活动，如国际辩论赛和为教育者开展的“教育的未来”系列；
+            举办休闲活动，如：体育嘉年华，家庭日；慈善活动，如：年度慈善飨宴等。
+          </p>
+          <div class="about__pictures">
+            <div class="about__box-4">
+              <div class="pic1"></div>
+              <div class="pic2"></div>
+              <div class="pic3"></div>
+              <div class="pic4"></div>
+            </div>
+          </div>
+          <br />
+          <p>
+            TEC也与各区政府机构密切合作，就普遍的主题提供直接的专业咨询服务，包括个人税收，工作和居住证，商业登记和出入境等政策。
+          </p>
+          <br />
+          <p>
+            TEC还参与了重要的社区发展项目，如“三业交流会“（就业，创业和兴业）。
+            这些活动都有助于为在上海的外籍群体建立更稳健的社区。
+          </p>
+          <br />
+          <p>
+            TEC一直鼓励外籍人士通过参与善功善举来回馈当地社区。
+            透过TEC，外籍人士可以通过接受与馈赠，以多种方式适应上海的生活。
+          </p>
+        </div>
+
+        <!-- Pictures -->
+        <div class="about__pictures">
+          <div class="about__box-4">
+            <div class="pic5"></div>
+            <div class="pic6"></div>
+            <div class="pic7"></div>
+            <div class="pic8"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- At a glance -->
+
+      <div class="about__glance">
+        <div class="about__title">
+          <h1>概览</h1>
+        </div>
+        <div class="about__content">
+          <p>
+            我们通过线下活动接触外籍人士总数：<span>120,000+</span>
+            <br />
+            服务超过<span>50</span>个国家以上的社群人员
+            <br />
+            目前微信公众号关注者：<span>7000+</span>
+            <br />
+            通过TEC发布的微信文章阅读总量：<span>420,770</span>
+            <br />
+            举办的活动，项目和提案组织的总数：<span>125+</span>
+            <br />
+            透过慈善活动支持到<span>20</span>个以上的受益机构
+            <br />
+            为慈善机构筹款超过<span>555</span>万元以上
+            <br />
+            大使中心总数量：<span>80</span>
+            <br />
+            TEC合作搭档：<span>250+</span>
+            <br />
+            志愿者：<span>1200+</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Nominations -->
+      <div class="about__awards">
+        <div class="about__title">
+          <h1>提名，获奖和荣誉</h1>
+        </div>
+        <div class="about__content">
+          <ul>
+            <li>TEC因3M慈善活动收到长宁民政局颁发的感谢证书</li>
+            <li>TEC被虹桥街道授予“最美战疫人”称号</li>
+            <li>TEC被虹桥街道提名上海2020年度“公益之申”十佳公益项目</li>
+            <li>TEC会长Linda Painan获上海白玉兰奖提名申报</li>
+            <li>TEC被虹桥街道授予“爱心表彰”</li>
+            <li>
+              TEC会长 Linda
+              Painan荣获首届“虹桥友谊奖”提名并成为首届”虹桥友谊联盟成员”
+            </li>
+            <li>TEC荣获“爱心抗疫”社会组织称号</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="images/footer.jpg" />
+    </div>
+    <script src="mobile.js"></script>
+  </body>
+</html>

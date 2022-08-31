@@ -1,0 +1,159 @@
+.home__title {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__wrapper {
+  margin-bottom: 6rem;
+}
+
+.home__title h1 {
+  text-align: center;
+  font-size: calc(1vw + 1.6rem);
+  max-width: 600px;
+  position: relative;
+}
+
+@media screen and (max-width: 955px) {
+  .home__title:after {
+    display: none;
+  }
+
+  .home__title:before {
+    display: none;
+  }
+}
+
+.home__content p {
+  line-height: 30px;
+}
+
+.home__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.home__box-3 {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__box-3 div {
+  display: grid;
+  text-align: center;
+  place-content: center;
+  width: 320px;
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  cursor: pointer;
+}
+
+.home__box-3 h1 {
+  color: white;
+}
+
+.box1 {
+  background: rgba(0, 0, 0, 0.25)
+    url(../img/Home/Our-Services/1.\ One-Stop\ Services.jpg);
+}
+
+.box2 {
+  background: rgba(0, 0, 0, 0.25)
+    url(../img/Home/Our-Services/2.\ Ambassador-center.jpg);
+}
+
+.box3 {
+  background: rgba(0, 0, 0, 0.25)
+    url(../img/Home/Our-Services/3.\ MiniProgram.jpg);
+}
+
+.home__box-6 {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__box-6 > div {
+  width: calc(6vw + 6rem);
+  height: calc(6vw + 6rem);
+  max-width: 300px;
+  border: none;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fbox1 {
+  background: url(../images/friends.jpg);
+}
+
+.fbox2 {
+  background: url(../images/friends.jpg);
+}
+
+.fbox3 {
+  background: url(../images/friends.jpg);
+}
+
+.fbox4 {
+  background: url(../images/friends.jpg);
+}
+
+.fbox5 {
+  background: url(../images/friends.jpg);
+}
+
+.fbox6 {
+  background: url(../images/friends.jpg);
+}
+
+.home__contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+}
+
+.home__contact-img > img {
+  width: 200px;
+}
+
+.home__contact-img {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__contact-details > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.home__contact-details i {
+  margin-right: 1em;
+}
+
+.heading {
+  margin-top: 1em;
+  font-weight: bold;
+}

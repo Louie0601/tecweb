@@ -1,0 +1,111 @@
+.about__intro {
+  margin-top: calc(1vw + 1.6rem);
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.about__title {
+  margin-bottom: 1.6rem;
+}
+
+.about__video {
+  width: 100%;
+}
+
+.about__video video {
+  width: 100%;
+}
+
+.about__mission {
+  margin-top: 3.4rem;
+}
+
+.about__pictures {
+  width: 100%;
+}
+
+.about__content p {
+  line-height: 30px;
+}
+
+.about__box-4 {
+  display: flex;
+  margin-top: 3rem;
+  gap: 1.8em;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__box-4 > div {
+  width: 240px;
+  height: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 900px) {
+  .about__box-4 {
+    flex-direction: column;
+  }
+}
+
+.pic1 {
+  background: url(../img/About-Us/Our-Mission/1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pic2 {
+  background: url(../img/About-Us/Our-Mission/2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pic3 {
+  background: url(../img/About-Us/Our-Mission/3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pic4 {
+  background: url(../img/About-Us/Our-Mission/4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pic5 {
+  background: url(../img/About-Us/Our-Mission/5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pic6 {
+  background: url(../img/About-Us/Our-Mission/6.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.pic7 {
+  background: url(../img/About-Us/Our-Mission/7.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pic8 {
+  background: url(../img/About-Us/Our-Mission/8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.about__glance {
+  margin-top: 3rem;
+}
+
+.about__awards {
+  margin-top: 3rem;
+}
+
+.about__content ul > li {
+  color: #3c3737;
+}

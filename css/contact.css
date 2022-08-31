@@ -1,0 +1,41 @@
+.contact__title {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact__contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+}
+
+.contact__contact-img > img {
+  width: 200px;
+}
+
+.contact__contact-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__contact-details > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.contact__contact-details i {
+  margin-right: 1em;
+}
+
+.heading {
+  margin-top: 1em;
+  font-weight: bold;
+}

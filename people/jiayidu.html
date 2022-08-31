@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/hero.css" />
+    <link rel="stylesheet" href="../css/person.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>Jiayi Du</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html"
+        ><img class="logo" src="../images/Logo.png" alt="logo"
+      /></a>
+
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li class="dropdown__link">
+            <a>Our Services</a>
+            <ul class="nav__dropdown">
+              <li><a href="../one-stop.html">One-Stop Platform</a></li>
+              <li><a href="../ambassador-center.html">Ambassador Center</a></li>
+              <li><a href="../mini-program.html">TEC助福 Mini Program</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="../friends.html">Friends of TEC</a></li>
+          <li><a href="../contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a href="jiayidu-cn.html" onclick="lan()">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About Us</a>
+        <a class="../mobile__dropdown-link" onclick="openDrop()"
+          >Our Services <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="../one-stop.html">One-Stop Platform</a></li>
+          <li><a href="../ambassador-center.html">Ambassador Center</a></li>
+          <li><a href="../mini-program.html">TEC助福 Mini Program</a></li>
+        </ul>
+        <a href="../friends.html">Friends of TEC</a>
+        <a href="../contact.html">Contact Us</a>
+      </div>
+    </div>
+
+    <div style="margin-top: 6rem"></div>
+
+    <a class="back" href="../friends.html">
+      <i class="fas fa-angle-left"></i>
+      <h3>Back</h3>
+    </a>
+
+    <!-- Profile Pic -->
+    <div class="container">
+      <div class="person__img">
+        <div class="person__pp">
+          <img src="img/Education-Jiayi Du/1.jpeg" />
+        </div>
+      </div>
+
+      <div class="person__intro">
+        <h2>Jiayi Du</h2>
+        <p>China</p>
+        <br />
+        <p>College Teacher of Shanghai International Business and Economics</p>
+      </div>
+      <div class="person__text">
+        <p>
+          Jiayi is a college teacher from Shanghai International Business and
+          Economics. Her research and academic interests focus on consumer
+          behavior and social media marketing. She also works as a commenter for
+          China Global Television Network and a freelance writer for Shanghai
+          Morning Post. During her leisure time, she devoted herself to social
+          works. She established NYU Alumni Club in Shanghai in 2013 and has
+          served more than 1000 NYU alumni in Shanghai with hundreds of events.
+          <br /><br />
+          <img src="img/Education-Jiayi Du/2.jpeg" class="long__pic" />
+          <br /><br />
+          She began her journey with TEC in the year 2020. She represented the
+          Youth Chapter of Shanghai Overseas Returned Scholars Association
+          (SORSA) and co-hosted TEC's forum “Building a Better Tomorrow:
+          Reflections on Covid-19 and Cooperation for the Future”. She has been
+          invited to attend a number of TEC events and she appreciates the
+          friendship with TEC members.
+          <br /><br />
+          <img src="img/Education-Jiayi Du/3.jpeg" class="long__pic" />
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="../images/footer.jpg" />
+    </div>
+    <script src="../mobile.js"></script>
+  </body>
+</html>

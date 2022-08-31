@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="images/Logo.png" alt="logo"
+      /></a>
+
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="about.html">About Us</a></li>
+          <li class="dropdown__link">
+            <a>Our Services</a>
+            <ul class="nav__dropdown">
+              <li><a href="one-stop.html">One-Stop Platform</a></li>
+              <li><a href="ambassador-center.html">Ambassador Center</a></li>
+              <li><a href="mini-program.html">TEC助福 Mini Program</a></li>
+            </ul>
+          </li>
+          <li><a href="friends.html">Friends of TEC</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a onclick="lan()" href="about-cn.html">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a class="mobile__dropdown-link" onclick="openDrop()"
+          >Our Services <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="one-stop.html">One-Stop Platform</a></li>
+          <li><a href="ambassador-center.html">Ambassador Center</a></li>
+          <li><a href="mini-program.html">TEC助福 Mini Program</a></li>
+        </ul>
+        <a href="friends.html">Friends of TEC</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+
+    <!-- Hero -->
+
+    <div class="about__hero">
+      <img src="img/About-Us/横幅.jpeg" alt="Hero Image" />
+    </div>
+
+    <div class="container">
+      <!-- Intro -->
+      <div class="about__intro">
+        <div class="about__title">
+          <h1>ABOUT US</h1>
+        </div>
+        <div class="about__content">
+          <p>
+            The Expatriate Center (TEC) is a key program of Shanghai Family Life
+            Center – a non-profit organization legally registered and supported
+            by the Shanghai municipal government to help expatriates Build A
+            Home Away From Home. TEC is an one-stop service platform that offers
+            a direct window, both offline and online, to address the actual
+            needs of the foreigners, Chinese Hong Kong, Chinese Macao, Chinese
+            Taiwan residents and Chinese returnees in the areas of living,
+            working, and family in Shanghai. Furthermore, TEC also serves as a
+            channel to provide feedback to the Shanghai government on policies
+            and programs important to the international community.
+          </p>
+        </div>
+      </div>
+      <div class="about__video">
+        <script
+          src="https://fast.wistia.com/embed/medias/v64v7dax46.jsonp"
+          async
+        ></script>
+        <script
+          src="https://fast.wistia.com/assets/external/E-v1.js"
+          async
+        ></script>
+        <div
+          class="wistia_responsive_padding"
+          style="padding: 56.25% 0 0 0; position: relative"
+        >
+          <div
+            class="wistia_responsive_wrapper"
+            style="
+              height: 100%;
+              left: 0;
+              position: absolute;
+              top: 0;
+              width: 100%;
+            "
+          >
+            <div
+              class="wistia_embed wistia_async_v64v7dax46 videoFoam=true"
+              style="height: 100%; position: relative; width: 100%"
+            >
+              <div
+                class="wistia_swatch"
+                style="
+                  height: 100%;
+                  left: 0;
+                  opacity: 0;
+                  overflow: hidden;
+                  position: absolute;
+                  top: 0;
+                  transition: opacity 200ms;
+                  width: 100%;
+                "
+              >
+                <img
+                  src="https://fast.wistia.com/embed/medias/v64v7dax46/swatch"
+                  style="
+                    filter: blur(5px);
+                    height: 100%;
+                    object-fit: contain;
+                    width: 100%;
+                  "
+                  alt=""
+                  aria-hidden="true"
+                  onload="this.parentNode.style.opacity=1;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="about__mission">
+        <div class="about__title">
+          <h1>OUR MISSION</h1>
+        </div>
+        <div class="about__content">
+          <p>
+            The events and services offered by TEC are designed to help
+            foreigners understand, cope, adapt and thrive in Shanghai as
+            expatriate residents. Such events and services include but are not
+            limited to Exploring Educational Opportunities (EEO) series whereby
+            Principals and Head of Schools from International Schools are
+            invited to be part of a panel and share about their schools directly
+            to parents; multiple education-related events such as the
+            International Debate Competition and the Future of Education series
+            for educators; leisure events such as sports competitions, family
+            days and charity events like our annual Charity Gala.
+          </p>
+          <br />
+          <p>
+            TEC also works closely with various district government bodies to
+            provide direct consultation service on a wide range of topics,
+            including personal tax, work and residence permit, business
+            registration, and exit-entry policies. We are involved in key
+            community projects like the International 3E Fair (Employment,
+            Entrepreneurship & Enterprise). All of these activities help to
+            build strong communities for the foreigners in Shanghai.
+          </p>
+          <div class="about__pictures">
+            <div class="about__box-4">
+              <div class="pic1"></div>
+              <div class="pic2"></div>
+              <div class="pic3"></div>
+              <div class="pic4"></div>
+            </div>
+          </div>
+          <br />
+          <p>
+            TEC also encourages expatriates to give back to the local community
+            by participating in doing good works. Through TEC, an expatriate can
+            adapt to life in Shanghai in many ways, by both receiving and
+            giving.
+          </p>
+        </div>
+
+        <!-- Pictures -->
+        <div class="about__pictures">
+          <div class="about__box-4">
+            <div class="pic5"></div>
+            <div class="pic6"></div>
+            <div class="pic7"></div>
+            <div class="pic8"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- At a glance -->
+
+      <div class="about__glance">
+        <div class="about__title">
+          <h1>AT A GLANCE</h1>
+        </div>
+        <div class="about__content">
+          <p>
+            Total number of expats reached through our initiatives:
+            <span>120,000+</span>
+            <br />
+            Total countries we have served in our community: <span>50+</span>
+            <br />
+            Total WeChat followers on our channel: <span>7000+</span><br />
+            Total number of organic reads through WeChat: <span>420,770</span
+            ><br />
+            Total number of events, programs and initiatives organized:
+            <span>125+</span><br />
+            Total beneficiaries supported through charity initiatives:
+            <span>20+</span><br />
+            Total amount raised for charitable organizations:
+            <span>5.55 million +</span><br />
+            Total number of Ambassador Centers: <span>80</span><br />
+            Total number of TEC Partners: <span>250+</span><br />
+            Volunteers base: <span>1200+</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Nominations -->
+      <div class="about__awards">
+        <div class="about__title">
+          <h1>NOMINATIONS, AWARDS & ACCOLADES</h1>
+        </div>
+        <div class="about__content">
+          <ul>
+            <li>
+              TEC, Certificate of Appreciation from Hongqiao Sub-District, 3M
+              Charity Initiative
+            </li>
+            <li>
+              TEC, Awarded the “最美战疫人”称号by the Hongqiao Sub-District
+              Office of the Party Working Committee
+            </li>
+            <li>
+              TEC, Nominated by the Hongqiao Sub-District for the Top 10 Charity
+              Initiatives in Shanghai
+            </li>
+            <li>
+              Linda Painan, Chairperson of TEC, Nominated for the Shanghai
+              Magnolia Award
+            </li>
+            <li>
+              TEC, Awarded the “爱心表彰” by the Hongqiao Sub-District Office of
+              the Party Working Committee
+            </li>
+            <li>
+              Linda Painan, Chairperson of TEC, Awarded the “虹桥友谊奖” 1st
+              Hongqiao Friendship Award Nominees & attended the inaugural
+              ceremony of Hongqiao Friendship Alliance
+            </li>
+            <li>
+              TEC, Awarded the “Combat Covid with Love” Social Organization by
+              the Hongqiao Sub-District Office of the Party Working Committee
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="images/footer.jpg" />
+    </div>
+    <script src="mobile.js"></script>
+  </body>
+</html>

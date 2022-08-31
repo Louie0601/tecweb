@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>TEC Home</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="images/Logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="dropdown__link">
+            <a>Our Services</a>
+            <ul class="nav__dropdown">
+              <li><a href="one-stop.html">One-Stop Platform</a></li>
+              <li><a href="ambassador-center.html">Ambassador Center</a></li>
+              <li><a href="mini-program.html">TEC助福 Mini Program</a></li>
+            </ul>
+          </li>
+          <li><a href="friends.html">Friends of TEC</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a onclick="lan()" href="index-cn.html">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a class="mobile__dropdown-link" onclick="openDrop()"
+          >Our Services <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="one-stop.html">One-Stop Platform</a></li>
+          <li><a href="ambassador-center.html">Ambassador Center</a></li>
+          <li><a href="mini-program.html">TEC助福 Mini Program</a></li>
+        </ul>
+        <a href="friends.html">Friends of TEC</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+    <!-- Hero -->
+
+    <div id="slider">
+      <figure>
+        <img src="img/Home/轮播图/轮播图1.jpg" />
+        <img src="img/Home/轮播图/轮播图2.jpg" />
+        <img src="img/Home/轮播图/轮播图3.jpg" />
+        <img src="img/Home/轮播图/轮播图4.jpg" />
+      </figure>
+    </div>
+    <div class="hero__text">
+      <h1>Build A Home Away From Home</h1>
+    </div>
+
+    <div class="container">
+      <!-- About -->
+      <div class="home__wrapper">
+        <div class="home__title">
+          <h1>About Us</h1>
+        </div>
+        <div class="home__content">
+          <p>
+            The Expatriate Center (TEC) is a key program of Shanghai Family Life
+            Center – a non-profit organization legally registered and supported
+            by the Shanghai municipal government to help expatriates Build A
+            Home Away From Home. TEC is an one-stop service platform that offers
+            a direct window, both offline and online, to address the actual
+            needs of the foreigners, Chinese Hong Kong, Chinese Macao, Chinese
+            Taiwan residents and Chinese returnees in the areas of living,
+            working, and family in Shanghai. Furthermore, TEC also serves as a
+            channel to provide feedback to the Shanghai government on policies
+            and programs important to the international community.
+          </p>
+        </div>
+        <div class="home__cta">
+          <a class="cta" href="about.html"> Read More </a>
+        </div>
+      </div>
+
+      <!-- Our Services -->
+      <div class="home__wrapper">
+        <div class="home__title">
+          <h1>Our Services</h1>
+        </div>
+        <div class="home__box-3">
+          <a href="one-stop.html"
+            ><div class="box1">
+              <h1>
+                One - Stop <br />
+                Service
+              </h1>
+            </div></a
+          >
+          <a href="ambassador-center.html"
+            ><div class="box2">
+              <h1>
+                Ambassador <br />
+                Centers
+              </h1>
+            </div></a
+          >
+          <a href="mini-program.html"
+            ><div class="box3">
+              <h1>
+                TEC助福 <br />
+                Mini Program
+              </h1>
+            </div></a
+          >
+        </div>
+      </div>
+
+      <!-- Friends of TEC -->
+      <div class="home__wrapper">
+        <div class="home__title">
+          <h1>Friends of TEC</h1>
+        </div>
+        <div class="home__content">
+          <p>
+            Since TEC's establishment, we are grateful for all the support from
+            various organizations and leaders who have contributed to TEC’s
+            milestone. We value these friendships and together we create an
+            inclusive community where we introduce “Friends of TEC” as we
+            recognize their support and key efforts for charity works and
+            community services.
+          </p>
+        </div>
+        <div class="home__box-6">
+          <div class="fbox1"></div>
+          <div class="fbox2"></div>
+          <div class="fbox3"></div>
+          <div class="fbox4"></div>
+          <div class="fbox5"></div>
+          <div class="fbox6"></div>
+        </div>
+        <div class="home__cta">
+          <a class="cta" href="friends.html"> Read More </a>
+        </div>
+      </div>
+
+      <!-- Contact -->
+
+      <div class="home__wrapper">
+        <div class="home__title">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="home__contact">
+          <div class="home__contact-img">
+            <img src="img/Home/Contact-Us/WeChat.png" />
+            <img src="img/Home/Contact-Us/WeCom.png" />
+          </div>
+          <div class="home__contact-details">
+            <div class="heading">
+              <p>TEC Gubei Office</p>
+            </div>
+            <div class="address">
+              <i class="far fa-map-marker-alt"></i>
+              <p>99, Fugui Ave.(E), Changning District, Shanghai</p>
+            </div>
+            <div class="phone">
+              <i class="far fa-phone"></i>
+              <p>021-22850791</p>
+            </div>
+            <br />
+            <div class="heading">
+              <p>TEC Xishi Office</p>
+            </div>
+            <div class="address">
+              <i class="far fa-map-marker-alt"></i>
+              <p>1437, Hongqiao Rd, Changning District, Shanghai</p>
+            </div>
+            <div class="phone">
+              <i class="far fa-phone"></i>
+              <p>021-62340332</p>
+            </div>
+            <br />
+            <div class="heading">
+              <p>Email:</p>
+            </div>
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <p>admin@tec.place</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+    </div>
+    <div class="footer">
+      <img src="images/footer.jpg" />
+    </div>
+    <script src="mobile.js"></script>
+  </body>
+</html>

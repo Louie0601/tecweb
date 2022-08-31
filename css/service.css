@@ -1,0 +1,158 @@
+.service__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.service__content > div {
+  display: flex;
+  width: 100%;
+  gap: 3em;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .service__content > div {
+    flex-direction: column;
+  }
+  div.service__section2 {
+    flex-direction: column-reverse;
+  }
+}
+
+.service__content img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.service__service-content {
+  flex: 1 1 10rem;
+}
+
+.service__content p {
+  line-height: 30px;
+}
+
+.service__title-content {
+  margin-top: 1.8rem;
+}
+
+.service__companies > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  margin-top: 3rem;
+}
+
+.service__companies > div > img {
+  width: 320px;
+}
+
+@media screen and (max-width: 1100px) {
+  .service__companies > div {
+    flex-direction: column;
+  }
+}
+
+.service__tiers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.service__benefits-tier {
+  margin-top: 6rem;
+}
+
+.service__tiers > div {
+  flex: 1 1 16rem;
+  text-align: center;
+}
+
+.service__tiers > div > h1 {
+  margin-bottom: 1.4rem;
+}
+
+.service__tiers > div > img {
+  width: calc(16vw + 16rem);
+}
+
+.service__qr {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.4rem;
+}
+
+.service__qr img {
+  width: 300px;
+}
+
+.service__qr-content {
+  flex: 1 1 30rem;
+}
+
+.service__qr-content h1 {
+  margin-bottom: 2rem;
+}
+
+.service__qr-content p {
+  line-height: 32px;
+  margin-bottom: 2.2rem;
+}
+
+.service__benefits-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+  .service__benefits-wrapper {
+    gap: 0.2rem;
+  }
+}
+
+.service__benefits-wrapper > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 300px;
+}
+
+.service__benefits-wrapper > div > img {
+  width: 80px;
+}
+
+.service__benefits-wrapper > div > div {
+  flex: 1 1 20rem;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.service__benefits-wrapper > div > div > h2 {
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.service__benefits-wrapper > div > div > ol > li {
+  color: #3c3737;
+}
+
+body > div.container > div > div.service__benefits > div.service__title {
+  margin-bottom: 3rem;
+}

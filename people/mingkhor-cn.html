@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/navbar-cn.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/hero.css" />
+    <link rel="stylesheet" href="../css/person.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <title>许思明</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index-cn.html">
+        <img class="logo" src="../images/Logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../index-cn.html">首页</a></li>
+          <li><a href="../about-cn.html">关于我们</a></li>
+          <li class="dropdown__link">
+            <a>主要服务</a>
+            <ul class="nav__dropdown">
+              <li><a href="../one-stop-cn.html">一站式平台</a></li>
+              <li><a href="../ambassador-center-cn.html">大使中心</a></li>
+              <li><a href="../mini-program-cn.html">小程序</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="../friends-cn.html">TEC之友</a></li>
+          <li><a href="../contact-cn.html">联系我们</a></li>
+        </ul>
+      </nav>
+      <div class="second__nav">
+        <a onclick="lan()" href="mingkhor.html">
+          <div class="menu__cta">
+            <p id="lan-en">En</p>
+            <p id="lan-ch">中</p>
+          </div>
+        </a>
+      </div>
+
+      <a onclick="openNav()" class="menu"><i class="far fa-bars"></i></a>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <div class="overlay__content">
+        <a href="../index-cn.html">首页</a>
+        <a href="../about-cn.html">关于我们</a>
+        <a class="mobile__dropdown-link" onclick="openDrop()"
+          >主要服务 <i class="fas fa-angle-down"></i
+        ></a>
+        <ul class="mobile__dropdown">
+          <li><a href="../one-stop-cn.html">一站式平台</a></li>
+          <li><a href="../ambassador-center-cn.html">大使中心</a></li>
+          <li><a href="../mini-program-cn.html">小程序</a></li>
+        </ul>
+        <a href="../friends-cn.html">TEC之友</a>
+        <a href="../contact-cn.html">联系我们</a>
+      </div>
+    </div>
+
+    <div style="margin-top: 6rem"></div>
+
+    <a class="back" href="../friends-cn.html">
+      <i class="fas fa-angle-left"></i>
+      <h3>返回</h3>
+    </a>
+
+    <!-- Profile Pic -->
+    <div class="container">
+      <div class="person__img">
+        <div class="person__pp">
+          <img src="img/Education-Ming Khor/1.jpg" />
+        </div>
+      </div>
+
+      <div class="person__intro">
+        <h2>许思明</h2>
+        <p>美国</p>
+        <br />
+        <p>课儒创始人兼首席执行官</p>
+      </div>
+      <div class="person__text">
+        <p>
+          许思明毕业于多伦多大学和宾夕法尼亚大学沃顿商学院，拥有文学学士和工商管理硕士学位。是WorldTeach
+          湖南的志愿者老师和公益组织美丽中国云南区项目经理，也是课儒创始人。
+          <br /><br />
+          课儒是一家专注于帮助高中生在旅行，探索和服务中实践课堂里所学到的体验式的学习机构。
+
+          <br /><br />
+          <img src="img/Education-Ming Khor/2.pic.jpg" class="long__pic" />
+          <br /><br />
+
+          “TEC是我远离故乡的家。很荣幸在过去的两年里作为志愿者，导师和赞助者参与了3E活动，以及在慈善高尔夫球锦标赛活动中成为了志愿者。通过TEC我结交了珍贵的挚友，并感受到了团体的欢愉与慰藉。”
+
+          <br /><br />
+          <img src="img/Education-Ming Khor/3.jpg" class="long__pic" />
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="../images/footer.jpg" />
+    </div>
+    <script src="../mobile.js"></script>
+  </body>
+</html>
